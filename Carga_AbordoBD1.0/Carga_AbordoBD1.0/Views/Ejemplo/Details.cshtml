@@ -1,0 +1,58 @@
+﻿@model Carga_AbordoBD1._0.Models.Ejemplo
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Ejemplo</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ejemplo1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ejemplo1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ejemplo2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ejemplo2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ejemplo3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ejemplo3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ejemplo4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ejemplo4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ejemplo5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ejemplo5)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
